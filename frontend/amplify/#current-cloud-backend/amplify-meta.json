@@ -1,0 +1,33 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-coffee-app-coffeedev-02240-authRole",
+			"UnauthRoleArn": "arn:aws:iam::126658246891:role/amplify-coffee-app-coffeedev-02240-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::126658246891:role/amplify-coffee-app-coffeedev-02240-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "amplify-coffee-app-coffeedev-02240-deployment",
+			"UnauthRoleName": "amplify-coffee-app-coffeedev-02240-unauthRole",
+			"StackName": "amplify-coffee-app-coffeedev-02240",
+			"StackId": "arn:aws:cloudformation:us-west-2:126658246891:stack/amplify-coffee-app-coffeedev-02240/3d8734e0-770e-11ea-a517-0a6d23b8818c",
+			"AmplifyAppId": "d2jdtzpdeqiyzd"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-coffee-app-coffeedev-02240-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2020-04-05T07:26:12.268Z",
+			"output": {
+				"S3BucketSecureURL": "https://coffee-app-20200405002448-hostingbucket-coffeedev.s3.amazonaws.com",
+				"WebsiteURL": "http://coffee-app-20200405002448-hostingbucket-coffeedev.s3-website-us-west-2.amazonaws.com",
+				"Region": "us-west-2",
+				"HostingBucketName": "coffee-app-20200405002448-hostingbucket-coffeedev"
+			},
+			"lastPushDirHash": "IyaAYxmYY+rkz3+fKCcOVvDigvA="
+		}
+	}
+}
