@@ -31,3 +31,5 @@ dist/
 aws-exports.js
 awsconfiguration.jsonnode_modules/
 
+#Django
+settings.py
